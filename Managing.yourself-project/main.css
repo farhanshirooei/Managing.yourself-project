@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'EncodeSans-Regular';
+    src: url('./fonts/EncodeSans-Regular.ttf');
+}
+
+body {
+    font-family: 'EncodeSans-Regular';
+    font-size: 1.2rem;
+    margin: 0;
+    background:
+    #4e4e7e
+    ;
+}
+
+.main-header {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header__logo {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-left: 5rem;
+}
+
+.main-nav {
+    display: flex;
+    margin-right: 5rem;
+}
+
+.main-nav-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#account {
+    margin-left: 6rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background: #f34cc1;
+    border: none;
+}
+
+.main-nav-item {
+    margin: 0 1rem;
+}
+
+.main-nav-item a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    
+}
+
+.title-picture {
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+}
+
+.title-text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.title-text h2 {
+    color: #ffffff;
+    font-size: 4rem;
+}
+
+.title-text p {
+    margin-top: -2rem;
+    color: #ffffff;
+}
+
+.input-btn input {
+    font: inherit;
+    background: #4e4e7e;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+
+.input-btn input:enabled {
+    color: #ffffff;
+}
+
+.input-btn button {
+    font: inherit;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    background: #f34cc1;
+    color: #ffffff;
+    border: none;
+}
+
